@@ -1,0 +1,40 @@
+##What Kind of Environment Is This? ##
+SDSim runs a HYBRID setup:
+a traditional on-premise core with modern cloud services layered on top. As a helpdesk tech you work across both worlds, so it helps to know which system owns what.
+
+## Company Profile ##
+Size:
+~500 employees (see License Inventory for seat counts)
+Site:
+One main office, 3 floors, fiber internet via Metro ISP
+Workforce:
+Office-based + remote workers (remote staff connect over the VPN client)
+
+## On-Premise (self-hosted in Server Rooms A & B) ##
+Directory:
+DC01 / DC02 (Server OS 2022) - accounts, passwords, device policy, the servicedesk-simulator.com domain
+Email:
+Mail Server 2019 on EXCH01 - all mailboxes live on-prem
+File storage:
+FILESERV01 - shared drives plus each user's H: home drive
+Printing:
+PRINT01 - centralized print queues
+Workstations:
+Workstation OS, domain-joined, encrypted with Drive Encryption
+
+## Cloud (Office Suite / Cloud Platform) ##
+Identity sync:
+On-prem AD syncs to Cloud Identity via AD Connect - passwords stay on-prem, MFA is managed in the cloud
+MFA:
+Authenticator app, enrolled at https://mfa.servicedesk-simulator.com/setup
+Productivity:
+Office Suite E3 provides productivity apps, Cloud Drive (cloud file storage and sync), and Chat - NOT mailboxes (mailboxes are on-prem Mail Server)
+
+## Who Owns What (quick reference) ##
+Login / password / unlock - on-prem Directory (DC01/DC02)
+MFA reset - Directory console (syncs to Cloud Identity)
+Mailbox / email - on-prem Mail Server (EXCH01)
+Shared & home files - on-prem File Server (H:, S:, D:)
+Personal cloud files / sync - Cloud Drive (cloud)
+Chat / messaging - company Chat tool
+Remote access - VPN Client
