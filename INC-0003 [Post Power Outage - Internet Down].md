@@ -30,4 +30,4 @@ Following a brief power outage, all users on Floor 1 lost internet connectivity.
 5) Contacted the reporting user through Microsoft Teams and requested confirmation that network connectivity had been restored. The user confirmed internet access had returned and that both wired and wireless devices were functioning normally.
 
 
-Ticket Closed. INC-0002 Resolved.
+Ticket Closed. INC-0003 Resolved.
