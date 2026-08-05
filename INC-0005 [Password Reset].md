@@ -5,8 +5,8 @@
 | Category    | Identity & Access Management           |                                                                           
 | Subcategory | Password Reset                  |                                                        
 | Reported By | Chris Nguyen |
-| Department  | Engineering                                                                                |Location     | Floor 1
-                                                                     |
+| Department  | Engineering                                                                             |
+|Location     | Floor 1                                                                     |
 | Contact     | x6150                                                                                          |
 | Assigned To | Aidan Baker – IT Support                                                                          |
 | Status      | Resolved                                                                                          |
