@@ -5,9 +5,7 @@
 | Category    | Identity & Access Management           |                                                                           
 | Subcategory | Security Group Management                   |                                                        
 | Reported By | Tom Wilson |
-| Department  | HR / IT Administration                                                                                |
-                                                                     |
-| Contact     | x0025                                                                                           |
+| Department  | HR / IT Administration            |                                                                     | Contact     | x0025                                                                                           |
 | Assigned To | Aidan Baker – IT Support                                                                          |
 | Status      | Resolved                                                                                          |
 
