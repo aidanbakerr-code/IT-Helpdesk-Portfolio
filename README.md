@@ -1,6 +1,6 @@
 # IT Helpdesk Documentation Portfolio
 
-This repository contains realistic IT support documentation based on a fictional managed service provider (MSP) environment.
+This repository contains realistic IT support documentation based on a fictional managed service provider (MSP) environment for training and porfolio purposes.
 
 The purpose of this repository is to demonstrate:
 
