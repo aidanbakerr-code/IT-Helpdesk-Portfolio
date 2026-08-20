@@ -22,3 +22,16 @@ Each ticket includes:
 - Resolution
 - Verification
 - Skills demonstrated
+
+Helpdesk Incidents
+
+| Ticket | Category | Skills |
+|---|---|---|
+| INC-0001 | Microsoft 365 | Authentication & M365 troubleshooting |
+| INC-0002 | Windows / Networking | Connectivity troubleshooting |
+| INC-0003 | Printer | Hardware & network troubleshooting |
+| INC-0004 | macOS | Endpoint troubleshooting |
+| INC-0005 | Identity & Access | AD & password management |
+| INC-0006 | DNS / DHCP | Network configuration |
+| INC-0007 | VPN | Remote access & authentication |
+| INC-0008 | Permissions | AD groups & access control |
